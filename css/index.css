@@ -1,0 +1,41 @@
+* {
+  font-size: 17px;
+}
+/* Contenedor */
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 7px solid black;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  text-align: center;
+  justify-content: center;
+}
+/* Titulo */
+h1 {
+  font-size: 40px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: grey;
+  width: 200px;
+  align-self: center;
+}
+/* Subtitulos */
+.subtitulos {
+  font-size: 30px;
+}
+/* Contenedores */
+div div {
+  width: 1300px;
+  min-width: 700px;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-self: center;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: grey;
+  margin: 10px;
+}
+.enlaces a {
+  text-decoration: none;
+}
